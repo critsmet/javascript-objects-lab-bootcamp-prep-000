@@ -3,6 +3,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return Object.assign(object, { [key]: value });
 }
 function updateObjectWithKeyAndValue(object, key, value) {
-  Object.assign(object, { [key]: value })
-  return object
+  var 2 = Object.assign(object, { [key]: value })
+  return 2
 }
